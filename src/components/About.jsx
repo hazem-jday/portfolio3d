@@ -47,13 +47,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a dynamic engineering student immersed in the world of computer science, adept at crafting engaging web experiences with React.js, Node.js and Golang. Beyond the web, I've delved into mobile app magic using Android Studio and Flutter, as well as brought ideas to life through games and simulations with the Unity engine. My projects journey, ranging from personal and academic ventures to freelance gigs, reflects my commitment to delivering impactful and user-friendly solutions. Eager to infuse innovation, I thrive on learning new technologies to stay ahead in the ever-evolving tech landscape.<br/>Let's work together !
+      
       </motion.p>
-
+      <a
+              href="../assets/Hazem_Jday.pdf" download
+              target="_blank"
+              className="bg-tertiary mt-4 py-2 px-11 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl mr-4 hidden sm:inline-block"
+            >
+            Get my PDF resume
+            </a>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

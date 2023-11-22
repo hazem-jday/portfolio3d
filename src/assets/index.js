@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -21,14 +21,32 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import azure from "./tech/azure.png";
+import cs from "./tech/cs.png";
+import firebase from "./tech/firebase.png";
+import flutter from "./tech/flutter.png";
+import go from "./tech/go.png";
+import java from "./tech/java.png";
+import kotlin from "./tech/kotlin.png";
+import python from "./tech/python.png";
+import unity from "./tech/unity.png";
+import ubuntu from "./tech/ubuntu.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
+
+
+import tekab from "./company/tekab.png";
+import sastec from "./company/sastec.png";
+import quebec from "./company/quebec.png";
+
+
+import svt from "./svt.png";
+import phogene from "./phogene.jpeg";
+import hetejdid from "./hetejdid.png";
+import space from "./space.png";
+import speech from "./speech.png";
+import gym from "./gym.png";
+
 
 export {
   logo,
@@ -52,11 +70,24 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  azure,
+  cs,
+  firebase,
+  flutter,
+  go,
+  java,
+  kotlin,
+  python,
+  unity,
+  ubuntu,
+  tekab,
+  sastec,
+  quebec,
+  svt,
+  phogene,
+  hetejdid,
+  space,
+  speech,
+  gym
+
 };

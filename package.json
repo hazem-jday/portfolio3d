@@ -1,8 +1,9 @@
 {
-  "name": "3dfolio",
+  "name": "hazem_portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

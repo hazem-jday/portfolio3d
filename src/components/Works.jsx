@@ -14,6 +14,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_demo_link
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -27,6 +28,7 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
+          {source_code_link !== "https://github.com/hazem-jday" ?
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -38,7 +40,8 @@ const ProjectCard = ({
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
-          </div>
+          </div>:null
+          }
         </div>
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
@@ -51,6 +54,21 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+        {live_demo_link !== "no" ?
+        <div>
+          <button>
+            <a
+              href={live_demo_link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-tertiary mt-4 py-2 px-11 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl mr-4 hidden sm:inline-block"
+            >
+            Demo
+            </a>
+          </button>
+
+        </div>
+        :null}
       </Tilt>
     </motion.div>
   );
